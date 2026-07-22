@@ -1,0 +1,502 @@
+[
+    {
+        "song_id": 1,
+        "title": "Choosin' Texas",
+        "artist_id": 1
+    },
+    {
+        "song_id": 2,
+        "title": "I Knew It, I Knew You",
+        "artist_id": 2
+    },
+    {
+        "song_id": 3,
+        "title": "Be Her",
+        "artist_id": 1
+    },
+    {
+        "song_id": 4,
+        "title": "Hate That I Made You Love Me",
+        "artist_id": 3
+    },
+    {
+        "song_id": 5,
+        "title": "Dracula",
+        "artist_id": 4
+    },
+    {
+        "song_id": 6,
+        "title": "Boston",
+        "artist_id": 5
+    },
+    {
+        "song_id": 7,
+        "title": "I Can't Love You Anymore",
+        "artist_id": 6
+    },
+    {
+        "song_id": 8,
+        "title": "Man I Need",
+        "artist_id": 7
+    },
+    {
+        "song_id": 9,
+        "title": "So Easy (To Fall In Love)",
+        "artist_id": 7
+    },
+    {
+        "song_id": 10,
+        "title": "I Just Might",
+        "artist_id": 8
+    },
+    {
+        "song_id": 11,
+        "title": "Janice STFU",
+        "artist_id": 9
+    },
+    {
+        "song_id": 12,
+        "title": "Drop Dead",
+        "artist_id": 10
+    },
+    {
+        "song_id": 13,
+        "title": "Risk It All",
+        "artist_id": 8
+    },
+    {
+        "song_id": 14,
+        "title": "Stupid Song",
+        "artist_id": 10
+    },
+    {
+        "song_id": 15,
+        "title": "Midnight Sun",
+        "artist_id": 11
+    },
+    {
+        "song_id": 16,
+        "title": "Don't We",
+        "artist_id": 12
+    },
+    {
+        "song_id": 17,
+        "title": "Stateside",
+        "artist_id": 13
+    },
+    {
+        "song_id": 18,
+        "title": "Be By You",
+        "artist_id": 14
+    },
+    {
+        "song_id": 19,
+        "title": "Spend Dat",
+        "artist_id": 15
+    },
+    {
+        "song_id": 20,
+        "title": "Earrings",
+        "artist_id": 16
+    },
+    {
+        "song_id": 21,
+        "title": "The Cure",
+        "artist_id": 10
+    },
+    {
+        "song_id": 22,
+        "title": "Homewrecker",
+        "artist_id": 17
+    },
+    {
+        "song_id": 23,
+        "title": "California Girls",
+        "artist_id": 18
+    },
+    {
+        "song_id": 24,
+        "title": "Babydoll",
+        "artist_id": 19
+    },
+    {
+        "song_id": 25,
+        "title": "Shabang",
+        "artist_id": 9
+    },
+    {
+        "song_id": 26,
+        "title": "Die On This Hill",
+        "artist_id": 20
+    },
+    {
+        "song_id": 27,
+        "title": "Wonderwall",
+        "artist_id": 21
+    },
+    {
+        "song_id": 28,
+        "title": "Fukk A Interview",
+        "artist_id": 18
+    },
+    {
+        "song_id": 29,
+        "title": "Konnichiwa",
+        "artist_id": 18
+    },
+    {
+        "song_id": 30,
+        "title": "Cinderella",
+        "artist_id": 22
+    },
+    {
+        "song_id": 31,
+        "title": "Morning Dew (Donk)",
+        "artist_id": 23
+    },
+    {
+        "song_id": 32,
+        "title": "American Girls",
+        "artist_id": 24
+    },
+    {
+        "song_id": 33,
+        "title": "One Two",
+        "artist_id": 18
+    },
+    {
+        "song_id": 34,
+        "title": "Don't Tell On Me",
+        "artist_id": 25
+    },
+    {
+        "song_id": 35,
+        "title": "Fever Dream",
+        "artist_id": 26
+    },
+    {
+        "song_id": 36,
+        "title": "What You Need",
+        "artist_id": 27
+    },
+    {
+        "song_id": 37,
+        "title": "Tank Top Pluto",
+        "artist_id": 18
+    },
+    {
+        "song_id": 38,
+        "title": "Snow In Skyami",
+        "artist_id": 18
+    },
+    {
+        "song_id": 39,
+        "title": "Honeybee",
+        "artist_id": 10
+    },
+    {
+        "song_id": 40,
+        "title": "E85",
+        "artist_id": 28
+    },
+    {
+        "song_id": 41,
+        "title": "Orbiter",
+        "artist_id": 29
+    },
+    {
+        "song_id": 42,
+        "title": "Dai Dai (FIFA World Cup Official Song 2026)",
+        "artist_id": 30
+    },
+    {
+        "song_id": 43,
+        "title": "Freakin' Out",
+        "artist_id": 31
+    },
+    {
+        "song_id": 44,
+        "title": "Loving Life Again",
+        "artist_id": 1
+    },
+    {
+        "song_id": 45,
+        "title": "Something To Lose",
+        "artist_id": 32
+    },
+    {
+        "song_id": 46,
+        "title": "Radio",
+        "artist_id": 18
+    },
+    {
+        "song_id": 47,
+        "title": "Self Aware",
+        "artist_id": 33
+    },
+    {
+        "song_id": 48,
+        "title": "Weight Up",
+        "artist_id": 18
+    },
+    {
+        "song_id": 49,
+        "title": "Chicago",
+        "artist_id": 34
+    },
+    {
+        "song_id": 50,
+        "title": "Pop Dat Thang",
+        "artist_id": 35
+    },
+    {
+        "song_id": 51,
+        "title": "Doors",
+        "artist_id": 29
+    },
+    {
+        "song_id": 52,
+        "title": "Trench Coat",
+        "artist_id": 18
+    },
+    {
+        "song_id": 53,
+        "title": "Iloveitiloveitiloveit",
+        "artist_id": 36
+    },
+    {
+        "song_id": 54,
+        "title": "No Misery",
+        "artist_id": 18
+    },
+    {
+        "song_id": 55,
+        "title": "2 Hard 4 The Radio",
+        "artist_id": 9
+    },
+    {
+        "song_id": 56,
+        "title": "Noble",
+        "artist_id": 37
+    },
+    {
+        "song_id": 57,
+        "title": "Hit The Wall",
+        "artist_id": 38
+    },
+    {
+        "song_id": 58,
+        "title": "Build A Bitch",
+        "artist_id": 18
+    },
+    {
+        "song_id": 59,
+        "title": "Mexico Honey",
+        "artist_id": 39
+    },
+    {
+        "song_id": 60,
+        "title": "Maggots For Brains",
+        "artist_id": 10
+    },
+    {
+        "song_id": 61,
+        "title": "Ran To Atlanta",
+        "artist_id": 40
+    },
+    {
+        "song_id": 62,
+        "title": "misery.",
+        "artist_id": 41
+    },
+    {
+        "song_id": 63,
+        "title": "Rubberz",
+        "artist_id": 42
+    },
+    {
+        "song_id": 64,
+        "title": "Money Over Everything",
+        "artist_id": 18
+    },
+    {
+        "song_id": 65,
+        "title": "Expectations",
+        "artist_id": 10
+    },
+    {
+        "song_id": 66,
+        "title": "Ghetto Love Story",
+        "artist_id": 43
+    },
+    {
+        "song_id": 67,
+        "title": "My Body Isn't Ready",
+        "artist_id": 17
+    },
+    {
+        "song_id": 68,
+        "title": "Motion Party",
+        "artist_id": 44
+    },
+    {
+        "song_id": 69,
+        "title": "Great Expectation",
+        "artist_id": 20
+    },
+    {
+        "song_id": 70,
+        "title": "Hate How You Look",
+        "artist_id": 45
+    },
+    {
+        "song_id": 71,
+        "title": "Iconic By Mistake",
+        "artist_id": 46
+    },
+    {
+        "song_id": 72,
+        "title": "Raindance",
+        "artist_id": 47
+    },
+    {
+        "song_id": 73,
+        "title": "Willing And Able",
+        "artist_id": 29
+    },
+    {
+        "song_id": 74,
+        "title": "Phone, Keys, Wallet",
+        "artist_id": 48
+    },
+    {
+        "song_id": 75,
+        "title": "Woman",
+        "artist_id": 49
+    },
+    {
+        "song_id": 76,
+        "title": "Off The Hinge",
+        "artist_id": 18
+    },
+    {
+        "song_id": 77,
+        "title": "Less",
+        "artist_id": 10
+    },
+    {
+        "song_id": 78,
+        "title": "What's Wrong With Me",
+        "artist_id": 50
+    },
+    {
+        "song_id": 79,
+        "title": "Rethink Some Things",
+        "artist_id": 14
+    },
+    {
+        "song_id": 80,
+        "title": "Rein Me In",
+        "artist_id": 51
+    },
+    {
+        "song_id": 81,
+        "title": "McArthur",
+        "artist_id": 52
+    },
+    {
+        "song_id": 82,
+        "title": "Whisper My Name",
+        "artist_id": 9
+    },
+    {
+        "song_id": 83,
+        "title": "2018",
+        "artist_id": 18
+    },
+    {
+        "song_id": 84,
+        "title": "House Tour",
+        "artist_id": 53
+    },
+    {
+        "song_id": 85,
+        "title": "My Way",
+        "artist_id": 10
+    },
+    {
+        "song_id": 86,
+        "title": "Bloodstream",
+        "artist_id": 54
+    },
+    {
+        "song_id": 87,
+        "title": "Chevy Silverado",
+        "artist_id": 55
+    },
+    {
+        "song_id": 88,
+        "title": "National Treasures",
+        "artist_id": 9
+    },
+    {
+        "song_id": 89,
+        "title": "Mr. Know It All",
+        "artist_id": 56
+    },
+    {
+        "song_id": 90,
+        "title": "Begged",
+        "artist_id": 10
+    },
+    {
+        "song_id": 91,
+        "title": "u + me = <3",
+        "artist_id": 10
+    },
+    {
+        "song_id": 92,
+        "title": "Look At My Life",
+        "artist_id": 38
+    },
+    {
+        "song_id": 93,
+        "title": "If I Could",
+        "artist_id": 18
+    },
+    {
+        "song_id": 94,
+        "title": "Think As You Drunk",
+        "artist_id": 57
+    },
+    {
+        "song_id": 95,
+        "title": "Speed Demon",
+        "artist_id": 58
+    },
+    {
+        "song_id": 96,
+        "title": "Damned If I Do",
+        "artist_id": 59
+    },
+    {
+        "song_id": 97,
+        "title": "Kick",
+        "artist_id": 18
+    },
+    {
+        "song_id": 98,
+        "title": "Eye To Eye",
+        "artist_id": 18
+    },
+    {
+        "song_id": 99,
+        "title": "Carry On",
+        "artist_id": 60
+    },
+    {
+        "song_id": 100,
+        "title": "Swim",
+        "artist_id": 61
+    }
+]
