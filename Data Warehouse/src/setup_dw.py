@@ -26,7 +26,8 @@ def setup_data_warehouse():
                 artist_id INT,
                 artist_name VARCHAR(255) NOT NULL,
                 PRIMARY KEY (artist_id),
-                CONSTRAINT unique_artist_name UNIQUE (artist_name)
+                CONSTRAINT unique_artist_name UNIQUE (artist_name),
+                updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP
             ) ENGINE=Innodb;
         """
 
@@ -35,7 +36,8 @@ def setup_data_warehouse():
             CREATE TABLE IF NOT EXISTS Dim_Songs (
                 song_id INT,
                 title VARCHAR(255) NOT NULL,
-                PRIMARY KEY (song_id)
+                PRIMARY KEY (song_id),
+                updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP
             ) ENGINE=Innodb;
         """
 
@@ -55,7 +57,9 @@ def setup_data_warehouse():
                 CONSTRAINT fk_fact_artist 
                     FOREIGN KEY (artist_id) REFERENCES Dim_Artists(artist_id) 
                     ON DELETE CASCADE 
-                    ON UPDATE CASCADE
+                    ON UPDATE CASCADE,
+
+                updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP
             ) ENGINE=Innodb;
         """
 
