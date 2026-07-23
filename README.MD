@@ -22,9 +22,11 @@ file JSON dibagi menjadi artists.json, chart_rankings.json, dan songs.json untuk
 
 ## Struktur ERD dan diagram relasional RDBMS
 Berikut adalah diagram ER
+
 ![ERD](Data%20Storing/design/ERD_v2.png)
 
 Di bawah adalah diagram relasional
+
 ![RMD](RM_diagram.png)
 
 ## Penjelasan proses Translasi ERD menjadi diagram relasional
@@ -32,9 +34,11 @@ diagram relasional dibuat dengan setiap entitas (Artists, Songs, Charts) jadi ta
 
 ## Screenshot program
 Berikut adalah screenshot dari table database biasa
+
 ![Tables_DB](Data%20Storing/screenshot/show_tables.png)
 
 Dan di bawah ini table dari data warehouse
+
 ![Tables_DW](Data%20Warehouse/screenshot/show_tables.png)
 
 ## Referensi
@@ -46,18 +50,19 @@ c. https://www.geeksforgeeks.org/dbms/star-schema-in-data-warehouse-modeling/
 
 ## Penggunaan AI
 a. Bagian-bagian yang dibantu AI: 
-   1. installasi library python (Microsoft Bing Copilot)
-   2. script awal Data Scraping, Data Storing dan Data Warehouse (chat Gemini Pro 3.1 bukan IDE copilot)
+   1. installasi library-library python
+   2. script AWAL Data Scraping, Data Storing, Data Warehouse, dan Query Optimasi
 
 b. Bagian-bagian yang tetap dikerjakan sendiri:
    1. prompting script yang disesuaikan dengan objektif tugas
-   2. penyesuaian manual pada script (menghapus variabel yang tidak perlu dan mengarahkan penyimpanan json sesuai dengan struktur folder di github, menyesuaikan pembagian jenis-jenis file JSON, dsb)
+   2. penyesuaian manual pada script (menghapus variabel yang tidak perlu dan mengarahkan penyimpanan suatu file sesuai dengan struktur folder di github, menyesuaikan pembagian jenis-jenis file JSON, dsb)
    2. pembuatan readme.md
-   3. pembuatan design Data Storing dan Data Warehouse
+   3. pembuatan design Data Storing dan Data Warehouse serta diagram relational model
 
 c. Refleksi dari penggunaan AI:
-   1. Gunakan copilot dari IDE untuk urusan debugging dan gunakan Gemini chat untuk diskusi tetapi jangan langsung copy paste karena beberapa saran dari Gemini tidak selaras dengan objektif tugas.
+   1. Gunakan Gemini chat untuk diskusi tetapi jangan langsung copy paste karena beberapa saran/aplikasi dari Gemini tidak selaras dengan objektif tugas.
 
 ## Penjelasan automated scheduling
 Proses scheduling dilakukan dengan script python (Data Warehouse/src/scheduler.py) proses ini dilakukan dengan meng-ekstraksi batch pertama dan batch kedua (2 menit dari batch pertama). Data pada DBMS dipastikan tidak redundan dengan menggunakan ON DUPLICATE KEY UPDATE saat insert data yang tertera pada file insert_to_dw.py sehingga data yang baru akan menggantikan data yang lama. Untuk mencatat waktu berubahnya data maka ditambahkan "updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP" saat create table (bisa dilihat di setup_dw.py). bukti perbedaan waktu ekstraksi data dapat dilihat di bawah (perubahan nama dari Ella Langley ke Ella).
+
 ![alt text](bukti_scheduling.png)
