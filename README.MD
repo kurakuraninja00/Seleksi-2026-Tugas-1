@@ -27,7 +27,7 @@ Berikut adalah diagram ER
 
 Di bawah adalah diagram relasional
 
-![RMD](RM_diagram.png)
+![RMD](RM_Diagram.png)
 
 ## Penjelasan proses Translasi ERD menjadi diagram relasional
 diagram relasional dibuat dengan setiap entitas (Artists, Songs, Charts) jadi tabel sendiri. Relasi "membuat" diterjemahkan dengan menaruh FK artist_id dari entitas Artists ke entitas Songs tanpa perlu tabel relasi baru. Relasi memiliki juga diterjemahkan dengan menaruh FK song_id dari Songs ke Charts.
